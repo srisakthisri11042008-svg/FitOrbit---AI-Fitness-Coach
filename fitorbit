@@ -1,0 +1,262 @@
+<!DOCTYPE html><html lang="en" class="dark"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="/assets/logo-CCujfcXq.png"/><link rel="preload" as="image" href="/assets/hero-athlete-ZMxnDWyH.jpg"/><link rel="stylesheet" href="/assets/styles-BOYOmbsl.css" data-precedence="default"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" data-precedence="default"/><title>FitOrbit</title><meta name="theme-color" content="#1a1428"/><meta name="author" content="FitOrbit"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="FitOrbit"/><meta name="twitter:description" content="FitOrbit 
+Your World Of Fitness
+ is your AI fitness coach. Personalized workouts, nutrition plans, and progress tracking — powered by conversational AI."/><meta property="og:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/5a4ea15b-e857-4a01-af7a-b5f64bc7b3a4"/><meta name="twitter:image" content="https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/5a4ea15b-e857-4a01-af7a-b5f64bc7b3a4"/><meta name="description" content="FitOrbit 
+Your World Of Fitness
+ is your AI fitness coach. Personalized workouts, nutrition plans, and progress tracking — powered by conversational AI."/><meta property="og:title" content="FitOrbit"/><meta property="og:description" content="FitOrbit 
+Your World Of Fitness
+ is your AI fitness coach. Personalized workouts, nutrition plans, and progress tracking — powered by conversational AI."/><link rel="modulepreload" href="/assets/index-BoJ3KJKc.js"/><link rel="modulepreload" href="/assets/useStore-DcBcwaen.js"/><link rel="modulepreload" href="/assets/matchContext-piPVwc2n.js"/><link rel="modulepreload" href="/assets/routes-CK4Xx_Sx.js"/><link rel="modulepreload" href="/assets/dist-CY_Vl15O.js"/><link rel="modulepreload" href="/assets/utils-K-H0gtAb.js"/><link rel="modulepreload" href="/assets/quotes-DmL8MlMj.js"/><link rel="modulepreload" href="/assets/sparkles-Dy6Ydb6p.js"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+<style>
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg) !important;
+		color: var(--badge-text) !important;
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow) !important;
+		font-size: 12px;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+		transition: opacity var(--badge-transition-duration) var(--badge-transition-easing);
+	}
+
+	#lovable-badge.closing {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: baseline;
+		gap: var(--badge-gap);
+		box-sizing: border-box;
+		padding: 4px var(--badge-padding) 0;
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	/* The wordmark baseline sits at y=12 of the 16px logo; an empty 12px box
+	   makes that the flex baseline so the text aligns to it on any system font. */
+	#lovable-badge-logo {
+		position: relative;
+		display: block;
+		width: 52px;
+		height: 12px;
+	}
+
+	#lovable-badge-logo svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.92);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+		z-index: 1;
+	}
+
+	#lovable-badge-close svg path {
+		fill: var(--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover svg path {
+		fill: var(--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge,
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+		}
+		
+		#lovable-badge-cta:active,
+		#lovable-badge-close:active {
+			transform: none;
+		}
+	}
+
+	@media (prefers-contrast: high) {
+		#lovable-badge {
+			--badge-bg: #000;
+			--badge-text: #fff;
+			--badge-text-hover: #fff;
+			border: 2px solid currentColor;
+		}
+		
+		#lovable-badge-cta:focus-visible,
+		#lovable-badge-close:focus-visible {
+			outline-width: 3px;
+		}
+	}
+</style>
+<script defer src="/~flock.js" data-proxy-url="/~api/analytics"></script></head><body class="min-h-screen bg-background text-foreground antialiased"><!--$--><div class="dark min-h-screen bg-background text-foreground"><header class="sticky top-0 z-40 border-b border-border/50 backdrop-blur-xl bg-background/70"><div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3"><div class="flex items-center gap-2"><img src="/assets/logo-CCujfcXq.png" alt="FitOrbit logo" width="32" height="32" class="drop-shadow-[0_0_12px_rgba(255,140,60,0.35)]"/><span class="font-display text-lg font-semibold tracking-tight">Fit<span class="text-gradient">Orbit</span></span></div><nav class="hidden gap-8 text-sm text-muted-foreground md:flex"><a href="#features" class="hover:text-foreground transition">Features</a><a href="#pricing" class="hover:text-foreground transition">Pricing</a><a href="#faq" class="hover:text-foreground transition">FAQ</a></nav><div class="flex items-center gap-2"><a href="/auth" class="rounded-full px-4 py-2 text-sm font-medium text-muted-foreground hover:text-foreground">Login</a><a href="/auth" class="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-glow transition hover:brightness-110">Start Free</a></div></div></header><section class="relative overflow-hidden bg-hero"><div class="mx-auto grid max-w-7xl gap-12 px-4 py-20 md:py-28 lg:grid-cols-2 lg:items-center"><div style="opacity:0;transform:translateY(20px)"><div class="glass mb-6 inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles h-3.5 w-3.5 text-primary" aria-hidden="true"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>AI-powered fitness coach</div><h1 class="font-display text-5xl font-bold leading-[1.05] md:text-6xl lg:text-7xl">Your world of<br/><span class="text-gradient">fitness</span>, reimagined.</h1><p class="mt-6 max-w-lg text-lg text-muted-foreground">Personal AI coach, adaptive workouts, tailored nutrition, and clear progress — all in one premium platform built for how you actually train.</p><div class="mt-8 flex flex-wrap items-center gap-3"><a href="/auth" class="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow transition hover:brightness-110"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap h-4 w-4" aria-hidden="true"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg> Start Free</a><a href="/auth" class="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold hover:bg-secondary">Login</a><a href="#features" class="inline-flex items-center gap-2 rounded-full px-4 py-3 text-sm font-medium text-muted-foreground hover:text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play h-4 w-4" aria-hidden="true"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z"></path></svg> Watch demo</a></div><div class="mt-10 glass max-w-lg rounded-2xl p-5" style="opacity:0;transform:translateY(8px)"><p class="text-sm italic text-muted-foreground">&quot;<!-- -->I hated every minute of training, but I said, &#x27;Don&#x27;t quit. Suffer now and live the rest of your life as a champion.&#x27;<!-- -->&quot;</p><p class="mt-2 text-xs font-medium text-primary">— <!-- -->Muhammad Ali</p></div></div><div class="relative" style="opacity:0;transform:scale(0.95)"><div class="glass overflow-hidden rounded-3xl shadow-glow"><img src="/assets/hero-athlete-ZMxnDWyH.jpg" alt="Athlete training in dark gym" width="1600" height="1200" class="h-[520px] w-full object-cover"/></div><div class="glass absolute -bottom-6 -left-6 rounded-2xl p-4 shadow-elevated hidden sm:block"><div class="flex items-center gap-3"><div class="rounded-xl bg-primary/20 p-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame h-5 w-5 text-primary" aria-hidden="true"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg></div><div><div class="text-xs text-muted-foreground">Today</div><div class="text-sm font-semibold">547 kcal burned</div></div></div></div><div class="glass absolute -top-6 -right-6 rounded-2xl p-4 shadow-elevated hidden sm:block"><div class="flex items-center gap-3"><div class="rounded-xl bg-accent/20 p-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-timer h-5 w-5 text-accent" aria-hidden="true"><line x1="10" x2="14" y1="2" y2="2"></line><line x1="12" x2="15" y1="14" y2="11"></line><circle cx="12" cy="14" r="8"></circle></svg></div><div><div class="text-xs text-muted-foreground">Streak</div><div class="text-sm font-semibold">14 days</div></div></div></div></div></div></section><section class="border-y border-border/50"><div class="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-4 py-10 md:grid-cols-4"><div class="text-center"><div class="font-display text-3xl font-bold text-gradient md:text-4xl">10k+</div><div class="mt-1 text-xs uppercase tracking-wider text-muted-foreground">Workouts generated</div></div><div class="text-center"><div class="font-display text-3xl font-bold text-gradient md:text-4xl">500+</div><div class="mt-1 text-xs uppercase tracking-wider text-muted-foreground">Exercise variations</div></div><div class="text-center"><div class="font-display text-3xl font-bold text-gradient md:text-4xl">30</div><div class="mt-1 text-xs uppercase tracking-wider text-muted-foreground">Daily motivations</div></div><div class="text-center"><div class="font-display text-3xl font-bold text-gradient md:text-4xl">24/7</div><div class="mt-1 text-xs uppercase tracking-wider text-muted-foreground">AI coach access</div></div></div></section><section id="features" class="mx-auto max-w-7xl px-4 py-24"><div class="mx-auto max-w-2xl text-center"><h2 class="font-display text-4xl font-bold md:text-5xl">Everything you need to <span class="text-gradient">transform</span></h2><p class="mt-4 text-muted-foreground">A complete fitness ecosystem — personalized, intelligent, and designed to keep you coming back.</p></div><div class="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-3"><div class="glass group rounded-2xl p-6 transition hover:shadow-glow" style="opacity:0;transform:translateY(20px)"><div class="mb-4 inline-flex rounded-xl bg-primary/15 p-3 transition group-hover:bg-primary/25"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain h-6 w-6 text-primary" aria-hidden="true"><path d="M12 18V5"></path><path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"></path><path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"></path><path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"></path><path d="M18 18a4 4 0 0 0 2-7.464"></path><path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"></path><path d="M6 18a4 4 0 0 1-2-7.464"></path><path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"></path></svg></div><h3 class="text-lg font-semibold">AI Fitness Coach</h3><p class="mt-2 text-sm text-muted-foreground">Chat with an intelligent coach that understands your goals, history, and constraints.</p></div><div class="glass group rounded-2xl p-6 transition hover:shadow-glow" style="opacity:0;transform:translateY(20px)"><div class="mb-4 inline-flex rounded-xl bg-primary/15 p-3 transition group-hover:bg-primary/25"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dumbbell h-6 w-6 text-primary" aria-hidden="true"><path d="M17.596 12.768a2 2 0 1 0 2.829-2.829l-1.768-1.767a2 2 0 0 0 2.828-2.829l-2.828-2.828a2 2 0 0 0-2.829 2.828l-1.767-1.768a2 2 0 1 0-2.829 2.829z"></path><path d="m2.5 21.5 1.4-1.4"></path><path d="m20.1 3.9 1.4-1.4"></path><path d="M5.343 21.485a2 2 0 1 0 2.829-2.828l1.767 1.768a2 2 0 1 0 2.829-2.829l-6.364-6.364a2 2 0 1 0-2.829 2.829l1.768 1.767a2 2 0 0 0-2.828 2.829z"></path><path d="m9.6 14.4 4.8-4.8"></path></svg></div><h3 class="text-lg font-semibold">Smart Workout Plans</h3><p class="mt-2 text-sm text-muted-foreground">Auto-generated routines for home or gym that adapt to your level and equipment.</p></div><div class="glass group rounded-2xl p-6 transition hover:shadow-glow" style="opacity:0;transform:translateY(20px)"><div class="mb-4 inline-flex rounded-xl bg-primary/15 p-3 transition group-hover:bg-primary/25"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-salad h-6 w-6 text-primary" aria-hidden="true"><path d="M7 21h10"></path><path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z"></path><path d="M11.38 12a2.4 2.4 0 0 1-.4-4.77 2.4 2.4 0 0 1 3.2-2.77 2.4 2.4 0 0 1 3.47-.63 2.4 2.4 0 0 1 3.37 3.37 2.4 2.4 0 0 1-1.1 3.7 2.51 2.51 0 0 1 .03 1.1"></path><path d="m13 12 4-4"></path><path d="M10.9 7.25A3.99 3.99 0 0 0 4 10c0 .73.2 1.41.54 2"></path></svg></div><h3 class="text-lg font-semibold">Personalized Nutrition</h3><p class="mt-2 text-sm text-muted-foreground">Daily meal plans with macros, calories, and shopping lists that fit your diet.</p></div><div class="glass group rounded-2xl p-6 transition hover:shadow-glow" style="opacity:0;transform:translateY(20px)"><div class="mb-4 inline-flex rounded-xl bg-primary/15 p-3 transition group-hover:bg-primary/25"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-line h-6 w-6 text-primary" aria-hidden="true"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="m19 9-5 5-4-4-3 3"></path></svg></div><h3 class="text-lg font-semibold">Progress Analytics</h3><p class="mt-2 text-sm text-muted-foreground">Weight, measurements, sleep, and mood tracked in beautiful graphs.</p></div><div class="glass group rounded-2xl p-6 transition hover:shadow-glow" style="opacity:0;transform:translateY(20px)"><div class="mb-4 inline-flex rounded-xl bg-primary/15 p-3 transition group-hover:bg-primary/25"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-pulse h-6 w-6 text-primary" aria-hidden="true"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"></path><path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27"></path></svg></div><h3 class="text-lg font-semibold">Recovery &amp; Wellness</h3><p class="mt-2 text-sm text-muted-foreground">Guided stretching, breathing, and sleep insights to keep you healthy.</p></div><div class="glass group rounded-2xl p-6 transition hover:shadow-glow" style="opacity:0;transform:translateY(20px)"><div class="mb-4 inline-flex rounded-xl bg-primary/15 p-3 transition group-hover:bg-primary/25"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy h-6 w-6 text-primary" aria-hidden="true"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978"></path><path d="M14 14.66v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978"></path><path d="M18 9h1.5a1 1 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z"></path><path d="M6 9H4.5a1 1 0 0 1 0-5H6"></path></svg></div><h3 class="text-lg font-semibold">Streaks &amp; Rewards</h3><p class="mt-2 text-sm text-muted-foreground">Daily challenges, XP, and streaks that turn habits into achievements.</p></div></div></section><section class="mx-auto max-w-7xl px-4 py-16"><div class="grid gap-10 md:grid-cols-2 md:items-center"><img src="/assets/feature-strength-7FcYCQBp.jpg" alt="Strength training" loading="lazy" width="1024" height="1024" class="rounded-3xl object-cover shadow-elevated"/><div><div class="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/15 px-3 py-1 text-xs font-medium text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square h-3.5 w-3.5" aria-hidden="true"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path></svg> AI Coach</div><h3 class="font-display text-3xl font-bold md:text-4xl">Ask anything. <span class="text-gradient">Get answers.</span></h3><p class="mt-4 text-muted-foreground">&quot;Create a 4-day push/pull split.&quot; &quot;Fix my squat form.&quot; &quot;What should I eat pre-workout?&quot; Your AI coach responds instantly with evidence-based guidance tailored to your profile.</p></div></div></section><section class="mx-auto max-w-7xl px-4 py-16"><div class="grid gap-10 md:grid-cols-2 md:items-center"><div class="md:order-2"><img src="/assets/feature-nutrition-_35E7Wwp.jpg" alt="Healthy meal" loading="lazy" width="1024" height="1024" class="rounded-3xl object-cover shadow-elevated"/></div><div class="md:order-1"><div class="mb-3 inline-flex items-center gap-2 rounded-full bg-accent/15 px-3 py-1 text-xs font-medium text-accent"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-salad h-3.5 w-3.5" aria-hidden="true"><path d="M7 21h10"></path><path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z"></path><path d="M11.38 12a2.4 2.4 0 0 1-.4-4.77 2.4 2.4 0 0 1 3.2-2.77 2.4 2.4 0 0 1 3.47-.63 2.4 2.4 0 0 1 3.37 3.37 2.4 2.4 0 0 1-1.1 3.7 2.51 2.51 0 0 1 .03 1.1"></path><path d="m13 12 4-4"></path><path d="M10.9 7.25A3.99 3.99 0 0 0 4 10c0 .73.2 1.41.54 2"></path></svg> Nutrition</div><h3 class="font-display text-3xl font-bold md:text-4xl">Meal plans that fit <span class="text-gradient">your life.</span></h3><p class="mt-4 text-muted-foreground">AI-generated daily menus with the right macros, calories, and prep time — respecting allergies, budget, and cuisine preferences.</p></div></div></section><section class="mx-auto max-w-7xl px-4 py-16"><div class="grid gap-10 md:grid-cols-2 md:items-center"><img src="/assets/feature-cardio-CUxhW8VC.jpg" alt="Cardio training" loading="lazy" width="1024" height="1024" class="rounded-3xl object-cover shadow-elevated"/><div><div class="mb-3 inline-flex items-center gap-2 rounded-full bg-primary/15 px-3 py-1 text-xs font-medium text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-line h-3.5 w-3.5" aria-hidden="true"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="m19 9-5 5-4-4-3 3"></path></svg> Progress</div><h3 class="font-display text-3xl font-bold md:text-4xl">See yourself <span class="text-gradient">evolve.</span></h3><p class="mt-4 text-muted-foreground">Weight, measurements, energy, mood, and workouts — visualized in beautiful graphs that show you exactly how far you&#x27;ve come.</p></div></div></section><section id="pricing" class="mx-auto max-w-7xl px-4 py-24"><div class="mx-auto max-w-2xl text-center"><h2 class="font-display text-4xl font-bold md:text-5xl">Simple <span class="text-gradient">pricing</span></h2><p class="mt-4 text-muted-foreground">Start free. Upgrade when you&#x27;re ready to go further.</p></div><div class="mt-12 grid gap-6 md:grid-cols-3"><div class="glass relative rounded-3xl p-8 "><div class="text-sm text-muted-foreground">Free</div><div class="mt-2 font-display text-4xl font-bold">$0<span class="text-base font-normal text-muted-foreground">/mo</span></div><ul class="mt-6 space-y-3 text-sm"><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->AI coach chat</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Basic workout plans</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Progress tracking</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Daily motivation</li></ul><a href="/auth" class="mt-8 inline-flex w-full items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold transition border border-border hover:bg-secondary">Get started</a></div><div class="glass relative rounded-3xl p-8 ring-2 ring-primary shadow-glow"><div class="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground">Most popular</div><div class="text-sm text-muted-foreground">Pro</div><div class="mt-2 font-display text-4xl font-bold">$9<span class="text-base font-normal text-muted-foreground">/mo</span></div><ul class="mt-6 space-y-3 text-sm"><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Everything in Free</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Unlimited AI plans</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Advanced analytics</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Nutrition planning</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->PDF exports</li></ul><a href="/auth" class="mt-8 inline-flex w-full items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold transition bg-primary text-primary-foreground shadow-glow hover:brightness-110">Get started</a></div><div class="glass relative rounded-3xl p-8 "><div class="text-sm text-muted-foreground">Elite</div><div class="mt-2 font-display text-4xl font-bold">$19<span class="text-base font-normal text-muted-foreground">/mo</span></div><ul class="mt-6 space-y-3 text-sm"><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Everything in Pro</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Voice coaching</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Weekly reviews</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Priority AI models</li><li class="flex items-start gap-2"><div class="mt-1 h-1.5 w-1.5 rounded-full bg-primary"></div> <!-- -->Wearable sync</li></ul><a href="/auth" class="mt-8 inline-flex w-full items-center justify-center rounded-full px-5 py-2.5 text-sm font-semibold transition border border-border hover:bg-secondary">Get started</a></div></div></section><section id="faq" class="mx-auto max-w-3xl px-4 py-24"><h2 class="text-center font-display text-4xl font-bold md:text-5xl">Frequently asked</h2><div class="mt-10 glass rounded-2xl p-2"><div data-orientation="vertical"><div data-state="closed" data-orientation="vertical" class="border-b border-border/50"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-_R_2d5aq_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_d5aq_" class="flex flex-1 items-center justify-between py-4 text-sm font-medium cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 px-4 text-left" data-radix-collection-item="">Is FitOrbit free?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-_R_2d5aq_" hidden="" role="region" aria-labelledby="radix-_R_d5aq_" data-orientation="vertical" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="border-b border-border/50"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-_R_2l5aq_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_l5aq_" class="flex flex-1 items-center justify-between py-4 text-sm font-medium cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 px-4 text-left" data-radix-collection-item="">Do I need gym equipment?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-_R_2l5aq_" hidden="" role="region" aria-labelledby="radix-_R_l5aq_" data-orientation="vertical" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="border-b border-border/50"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-_R_2t5aq_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_t5aq_" class="flex flex-1 items-center justify-between py-4 text-sm font-medium cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 px-4 text-left" data-radix-collection-item="">How does the AI coach work?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-_R_2t5aq_" hidden="" role="region" aria-labelledby="radix-_R_t5aq_" data-orientation="vertical" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div><div data-state="closed" data-orientation="vertical" class="border-b border-border/50"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-_R_355aq_" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-_R_155aq_" class="flex flex-1 items-center justify-between py-4 text-sm font-medium cursor-pointer transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 px-4 text-left" data-radix-collection-item="">Is my data private?<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-_R_355aq_" hidden="" role="region" aria-labelledby="radix-_R_155aq_" data-orientation="vertical" class="overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height:var(--radix-collapsible-content-height);--radix-accordion-content-width:var(--radix-collapsible-content-width)"></div></div></div></div></section><section class="mx-auto max-w-5xl px-4 pb-24"><div class="glass rounded-3xl bg-hero p-12 text-center shadow-glow"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield mx-auto h-10 w-10 text-primary" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg><h3 class="mt-4 font-display text-3xl font-bold md:text-4xl">Ready to change your body?</h3><p class="mt-3 text-muted-foreground">Your first workout is one click away.</p><a href="/auth" class="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-glow hover:brightness-110"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap h-4 w-4" aria-hidden="true"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg> Start Free</a></div></section><footer class="border-t border-border/50"><div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-8 sm:flex-row"><div class="flex items-center gap-2"><img src="/assets/logo-CCujfcXq.png" alt="FitOrbit logo" width="32" height="32" class="drop-shadow-[0_0_12px_rgba(255,140,60,0.35)]"/><span class="font-display text-lg font-semibold tracking-tight">Fit<span class="text-gradient">Orbit</span></span></div><p class="text-xs text-muted-foreground">© <!-- -->2026<!-- --> FitOrbit. Your World Of Fitness.</p></div></footer></div><script>(function(a,f){let l;try{l=JSON.parse(sessionStorage.getItem(a)||"{}")}catch{return}const n=l?.[f||history.state?.__TSR_key];let c=!1;for(const t in n){const e=n[t],o=e?.scrollX,s=e?.scrollY;if(Number.isFinite(o)&&Number.isFinite(s)){if(t==="window")scrollTo(o,s),c=!0;else if(t)try{const r=document.querySelector(t);r&&(r.scrollLeft=o,r.scrollTop=s)}catch{}}}if(c)return;const i=location.hash.slice(1);if(i){const t=history.state?.__hashScrollIntoViewOptions??!0;if(t){const e=document.getElementById(i);e&&e.scrollIntoView(t)}return}scrollTo(0,0)})("tsr-scroll-restoration-v1_3");document.currentScript.remove()</script><!--/$--><section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false"></section><script class="$tsr" id="$tsr-stream-barrier">(self.$R=self.$R||{})["tsr"]=[];self.$_TSR={h(){this.hydrated=!0,this.c()},e(){this.streamEnded=!0,this.c()},c(){this.hydrated&&this.streamEnded&&(delete self.$_TSR,delete self.$R.tsr)},p(e){this.initialized?e():this.buffer.push(e)},buffer:[]};$_TSR.router=($R=>$R[0]={manifest:$R[1]={routes:$R[2]={__root__:$R[3]={preloads:$R[4]=["/assets/index-BoJ3KJKc.js","/assets/useStore-DcBcwaen.js","/assets/matchContext-piPVwc2n.js"],scripts:$R[5]=[$R[6]={attrs:$R[7]={type:"module",async:!0,src:"/assets/index-BoJ3KJKc.js"}}]},"/":$R[8]={preloads:$R[9]=["/assets/routes-CK4Xx_Sx.js","/assets/dist-CY_Vl15O.js","/assets/utils-K-H0gtAb.js","/assets/quotes-DmL8MlMj.js","/assets/sparkles-Dy6Ydb6p.js"]}}},matches:$R[10]=[$R[11]={i:"__root__",u:1791259143459,s:"success",ssr:!0},$R[12]={i:"",u:1791259143459,s:"success",ssr:!0}],lastMatchId:""})($R["tsr"]);$_TSR.e();document.currentScript.remove()</script><script type="module" async="" src="/assets/index-BoJ3KJKc.js"></script>
+<aside
+	id="lovable-badge"
+	role="complementary"
+	dir="ltr"
+	lang="en"
+	aria-label="Edit with Lovable">
+	<a
+		id="lovable-badge-cta" 
+		target="_blank" 
+		href="https://lovable.dev/projects/lovp_2kpx5a1m788qwr9827xhhan9fa?utm_source=lovable-badge"
+		rel="noopener nofollow"
+		aria-label="Edit with Lovable">
+		<span id="lovable-badge-text">Edit with</span>
+		<span id="lovable-badge-logo"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
+  <path fill="#FCFBF8" fill-rule="evenodd" d="M20.318 5.25c.643 0 1.206.14 1.69.418a2.81 2.81 0 0 1 1.118 1.191c.266.513.4 1.115.4 1.807s-.134 1.296-.4 1.812a2.81 2.81 0 0 1-1.118 1.193c-.484.278-1.047.418-1.69.418s-1.208-.14-1.695-.418a2.85 2.85 0 0 1-1.125-1.193c-.262-.516-.393-1.12-.393-1.812s.131-1.294.393-1.807a2.848 2.848 0 0 1 1.125-1.191c.487-.279 1.052-.418 1.695-.418Zm0 1.425c-.27 0-.504.076-.7.228-.193.147-.34.37-.443.67-.102.295-.153.66-.153 1.093 0 .435.05.801.153 1.1.102.3.25.524.443.676.196.147.43.22.7.22.27 0 .502-.073.694-.22.193-.152.341-.375.443-.67.103-.299.153-.667.153-1.106 0-.65-.112-1.145-.337-1.481a1.08 1.08 0 0 0-.953-.51ZM32.7 5.25c.61 0 1.127.1 1.549.3.422.197.74.48.953.849.217.368.325.809.325 1.32v2.704c0 .29.02.562.062.812.044.245.108.4.19.466V12h-1.935a5.895 5.895 0 0 1-.105-.684 7.745 7.745 0 0 1-.02-.228 2.293 2.293 0 0 1-.151.203c-.205.242-.47.437-.793.584-.32.143-.685.215-1.094.215-.406 0-.77-.08-1.094-.24a1.845 1.845 0 0 1-.756-.682 1.984 1.984 0 0 1-.27-1.045c0-.606.178-1.069.535-1.388.356-.324.87-.534 1.542-.633l1.125-.16c.225-.032.403-.074.534-.123a.622.622 0 0 0 .288-.196.549.549 0 0 0 .093-.327.65.65 0 0 0-.11-.367.702.702 0 0 0-.32-.27c-.14-.07-.31-.105-.51-.105-.32 0-.576.083-.768.251-.193.164-.298.39-.314.676h-1.923c.016-.434.147-.82.393-1.155.25-.34.596-.604 1.039-.792.442-.189.954-.283 1.535-.283Zm.99 3.498a.98.98 0 0 1-.215.14 2.49 2.49 0 0 1-.584.178l-.473.092c-.315.061-.553.156-.713.283-.155.127-.233.305-.233.534 0 .23.084.412.252.547.168.135.383.203.645.203s.494-.058.694-.173c.201-.118.355-.282.461-.49.11-.21.166-.448.166-.714v-.6Zm4.526-2.375c.065-.125.138-.243.221-.349.197-.25.437-.44.719-.571.282-.135.6-.203.952-.203.528 0 .988.138 1.377.412.389.275.688.67.896 1.186.21.512.314 1.12.314 1.824 0 .7-.107 1.309-.32 1.825-.213.512-.518.906-.915 1.18-.393.275-.854.412-1.383.412-.352 0-.667-.062-.946-.184a1.832 1.832 0 0 1-.7-.554 2.2 2.2 0 0 1-.234-.383V12h-1.843V3h1.862v3.373Zm1.284.296c-.274 0-.51.085-.707.253-.192.163-.338.397-.436.7a3.376 3.376 0 0 0-.148 1.05c0 .406.05.759.148 1.058.098.299.243.53.436.694.197.164.433.246.707.246.279 0 .512-.082.7-.246.193-.164.336-.395.43-.694.099-.3.148-.652.148-1.058 0-.405-.05-.757-.147-1.056-.095-.299-.238-.53-.43-.694a1.015 1.015 0 0 0-.7-.253Zm9.416-1.419c.602 0 1.136.131 1.604.393.466.262.829.643 1.086 1.143.263.5.394 1.097.394 1.794 0 .25-.002.449-.006.596H47.51c.018.288.071.538.164.75a1.3 1.3 0 0 0 .491.596c.214.13.465.196.757.196.319 0 .583-.082.792-.246.209-.167.34-.403.393-.706h1.862a2.48 2.48 0 0 1-.485 1.235 2.54 2.54 0 0 1-1.051.805c-.439.188-.949.283-1.53.283-.655 0-1.225-.125-1.708-.375a2.672 2.672 0 0 1-1.13-1.143c-.267-.508-.4-1.137-.4-1.887 0-.712.14-1.327.418-1.843a2.86 2.86 0 0 1 1.155-1.186c.491-.27 1.051-.405 1.678-.405Zm-.044 1.345c-.274 0-.516.068-.725.203a1.29 1.29 0 0 0-.479.59 2.045 2.045 0 0 0-.132.498h2.562a1.873 1.873 0 0 0-.138-.602 1.061 1.061 0 0 0-.418-.516 1.243 1.243 0 0 0-.67-.173Z" clip-rule="evenodd"/>
+  <path fill="#FCFBF8" d="m26.605 9.995 1.342-4.566h1.924L27.628 12h-2.07l-2.33-6.57h1.98l1.397 4.565Zm-13.013.143h2.256c1.632 0 1.421 1.837 1.418 1.861h-5.603V3h1.93v7.138Zm31.516 1.861h-1.862V3h1.862v8.999Z"/>
+  <path fill="url(#a)" fill-rule="evenodd" d="M2.7 3c1.492 0 2.7 1.192 2.7 2.663v1.012h.9c1.49 0 2.7 1.192 2.7 2.662S7.791 12 6.3 12H0V5.663C0 4.193 1.209 3 2.7 3Z" clip-rule="evenodd"/>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(-1.54236 7.07838 -10.231 -2.15602 4.627 5.022)" gradientUnits="userSpaceOnUse">
+      <stop offset=".106" stop-color="#FE7B02"/>
+      <stop offset=".394" stop-color="#FE3F21"/>
+      <stop offset=".608" stop-color="#F858BC"/>
+      <stop offset=".929" stop-color="#575ECF"/>
+    </radialGradient>
+  </defs>
+</svg>
+
+</span>
+	</a>
+	
+	<span id="lovable-badge-divider" aria-hidden="true"></span>
+	
+	<button 
+		id="lovable-badge-close"
+		aria-label="Dismiss"
+		title="Dismiss"
+		type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+			<path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"/>
+		</svg>
+	</button>
+</aside>
+<script>
+	(() => {
+		if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+			const badge = document.querySelector('#lovable-badge');
+			if (badge) {
+				badge.style.display = 'none';
+			}
+			return;
+		}
+
+		const closeButton = document.querySelector('#lovable-badge-close');
+		if (closeButton) {
+			closeButton.addEventListener('click', function(event) {
+				event.preventDefault();
+				event.stopPropagation();
+				const badge = document.querySelector('#lovable-badge');
+				if (badge) {
+					badge.classList.add('closing');
+					setTimeout(function() {
+						if (badge) {
+							badge.style.display = 'none';
+						}
+					}, 240);
+				}
+			});
+		}
+	})();
+</script>
+</body></html>
